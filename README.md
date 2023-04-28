@@ -7,7 +7,7 @@ La función Eggholder tiene un paisaje engañoso y es una función extremadament
 
 ## Definición Matemática 
 
-$$f\left(x\right) = -\left(x_2+47\right)sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 47\|}\right)-x_1 sin\left(\sqrt{\|x_1-\left(x_2+47\right)\|}\right)$$
+$$f\left(x\right) = -\left(x_2+47\right)\ sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 47\|}\right)-x_1\ sin\left(\sqrt{\|x_1-\left(x_2+47\right)\|}\right)$$
 
 ## Dominio de Entrada
 
@@ -36,3 +36,6 @@ La función no es aleatoria.
 
 La función no es paramétrica.
 
+## Más Información
+
+[EggHolder Function](https://www.sfu.ca/~ssurjano/egg.html)
