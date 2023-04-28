@@ -11,8 +11,6 @@ $$f\left(x\right) = -\left(x_2+47\right)sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 4
 
 ## Dominio de Entrada
 
-Dimensiones: 2
-
 La función generalmente se evalúa en el cuadrado
 $$x_i\in[-512,512],\ para\ cada\ i=1,2$$
 
