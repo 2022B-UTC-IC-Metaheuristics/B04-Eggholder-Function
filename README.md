@@ -9,6 +9,9 @@ La función Eggholder tiene un paisaje engañoso y es una función extremadament
 
 $$f\left(x\right) = -\left(x_2+47\right)\ sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 47\|}\right)-x_1\ sin\left(\sqrt{\|x_1-\left(x_2+47\right)\|}\right)$$
 
+##Definición en codigo
+$$-(y + 47) * sin(sqrt(abs(x/2 + (y + 47)))) - x * sin(sqrt(abs(x - (y + 47)))))
+
 ## Dominio de Entrada
 
 La función generalmente se evalúa en el cuadrado
