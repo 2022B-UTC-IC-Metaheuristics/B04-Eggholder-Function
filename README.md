@@ -9,21 +9,24 @@ La función Eggholder tiene un paisaje engañoso y es una función extremadament
 
 $$f\left(x\right) = -\left(x_2+47\right)\ sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 47\|}\right)-x_1\ sin\left(\sqrt{\|x_1-\left(x_2+47\right)\|}\right)$$
 
+
 ## Definición de la función en codigo
-$$-(y + 47) * sin(sqrt(abs(x/2 + (y + 47)))) - x * sin(sqrt(abs(x - (y + 47)))))
+f(x,y) = -(y + 47) * sin(sqrt(abs(x/2 + (y + 47)))) - x * sin(sqrt(abs(x - (y + 47)))))
+
 
 ## Dominio de Entrada
 
-La funcion tiene una codificación binaria,
+La funcion tiene una codificación binaria.
+
 La función generalmente se evalúa en el cuadrado
 $$x_i\in[-512,512],\ para\ cada\ i=1,2$$
 
 ## Ejemplos de soluciones iniciales
-$$(x, y) = (512, 404.2319)
+(x, y) = (512, 404.2319)
 
-$$(x, y) = (-465.2287, 394.2319)
+(x, y) = (-465.2287, 394.2319)
 
-$$(x, y) = (100, -100)
+(x, y) = (100, -100)
 
 ## Mínimo Global
 
