@@ -10,9 +10,20 @@ La función Eggholder tiene un paisaje engañoso y es una función extremadament
 $$f\left(x\right) = -\left(x_2+47\right)\ sin\left(\sqrt{\|x_2 + \frac{x_1}{2} + 47\|}\right)-x_1\ sin\left(\sqrt{\|x_1-\left(x_2+47\right)\|}\right)$$
 
 
-## Definición de la función objetivo en python
-f(x,y) = -(y + 47) * sin(sqrt(abs(x/2 + (y + 47)))) - x * sin(sqrt(abs(x - (y + 47)))))
+## Definición de la función objetivo en python y ejemplo
+precision = 0.001
+rango_entero = 512
+bits_enteros, bits_decimales = calcular_bits(rango_entero, precision)
 
+def egg_holder(solution,bits_enteros, bits_decimales,precision):
+    variables = decodificar_solución(solution,bits_enteros,bits_decimales,precision)
+    x , y = variables[0], variables[1]
+    return -(y + 47) * sin(sqrt(abs(x/2 + (y + 47)))) - x * sin(sqrt(abs(x - (y + 47))))
+
+fn = functools.partial(egg_holder,bits_enteros = bits_enteros, bits_decimales = bits_decimales, precision=precision)
+
+##Tip
+Utiliza el archivo utils.py para poder probrarlo, ya que necesita algunas funciones como la de decodificar arreglo, calcular bits y convertir a binario.
 
 ## Dominio de Entrada
 
